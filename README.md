@@ -52,6 +52,8 @@ OR
             "param1"=>"value1"
             "param2"=>"value2"
     }>
+>> config.params will show the resultant hash that can be used within the application
+=>  {"host"=>"test.com", "server_id"=>"55331", "server_load_alarm"=>"2.5", "user"=>"john", "verbose"=>"true", "test_mode"=>"on", "debug_mode"=>"off", "log_file_path"=>"/tmp/logfile.log", "send_notifications"=>"yes"}
 ```
 
 ## Development
